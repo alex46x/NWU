@@ -613,8 +613,10 @@ from telegram.ext import (
 # ---------------------------------------------------------------------------
 # 1. CONFIGURATION
 # ---------------------------------------------------------------------------
+import os
+BOT_TOKEN = os.getenv("BOT_TOKEN")
 
-BOT_TOKEN = "8534911818:AAGtLGMxPiT1aa6ocj1lJJoRkyc-3yLznO0"  # ← এখানে তোমার বট টোকেন দাও
+# BOT_TOKEN = "8534911818:AAGtLGMxPiT1aa6ocj1lJJoRkyc-3yLznO0"  # ← এখানে তোমার বট টোকেন দাও
 ADMIN_USERNAMES = ['mrx_46x', 'cr_username']  # ← @ ছাড়া, ছোট হাত–বড় হাত মিলিয়ে নাও
 DB_NAME = "simple_uni.db"
 
